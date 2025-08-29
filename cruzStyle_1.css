@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+h1{
+    color: blue;
+    font-family: tahoma;
+    text-align: left;
+    font-size: 40px;
+}
+
+h2{
+    color: green;
+    font-family: verdana;
+    text-align: left;
+    font-size: 20px;
+}
+
+p{
+    color: whitesmoke;
+    font-family: Helvetica;
+    text-align: left;
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.cruzSignUp{
+    background-color: cyan;
+    border-color: royalblue;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin: 2px;
+}
+
+.cruzLogIn{
+    background-color: yellowgreen;
+    border-color: green;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin: 2px;
+}
+
+.cruzClear{
+    background-color: green;
+    border-color: green;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin: 2px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    padding: 5px;
+}
+
+button{
+    cursor: pointer;
+}
